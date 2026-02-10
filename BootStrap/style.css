@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --festival-gold: #f6c445;
+  --festival-dark: #111111;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: #f7f5f2;
+}
+
+.logo-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  background: var(--festival-gold);
+  color: var(--festival-dark);
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.hero-img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    height: 55vh;
+  }
+}
